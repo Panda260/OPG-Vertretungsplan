@@ -1,0 +1,1 @@
+curl https://www.opg-hiddenhausen.de/fileadmin/Vertretungen/f1/subst_001.htm -u $vertretungsplan_user:$vertretungsplan_pw -s | grep -i "10D" | grep -Po "(?<=>)([a-wy-zA-Z0-9-+, ]+)(?=<\/)" > output.txt

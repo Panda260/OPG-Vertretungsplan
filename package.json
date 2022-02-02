@@ -1,0 +1,13 @@
+{
+  "name": "vertretungsplan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "npm install && npm run start"
+  }
+}
